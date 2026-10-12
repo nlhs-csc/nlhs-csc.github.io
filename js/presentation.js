@@ -20,9 +20,14 @@ const lessons = [
     description: "學習變數、記憶體、函數與基本語法"
   },
   {
-    id: "conditions",
-    title: "條件判斷",
-    description: "使用 if、else 等語法，讓程式依條件執行"
+    id: "first_program",
+    title: "第一支程式",
+    description: "開始第一次程式實作，學習輸入與輸出"
+  },
+  {
+    id: "conditions_and_loops",
+    title: "條件陳述與迴圈",
+    description: "學習條件陳述與迴圈的使用"
   },
   {
     id: "functions_and_loops",
