@@ -1,0 +1,73 @@
+
+name: Deploy multi-branch GitHub Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Assemble all sites
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          git fetch origin \
+            '+refs/heads/*:refs/remotes/origin/*'
+
+          mkdir -p _site
+
+          git archive origin/main |
+            tar -x -C _site
+
+          mkdir -p _site/club/9th
+
+          git archive origin/9th |
+            tar -x -C _site/club/9th
+
+          while read -r ref; do
+            suffix="${ref#origin/bookclub-}"
+            destination="_site/bookclub/${suffix}"
+
+            mkdir -p "$destination"
+            git archive "$ref" |
+              tar -x -C "$destination"
+          done < <(
+            git for-each-ref \
+              --format='%(refname:short)' \
+              'refs/remotes/origin/bookclub-*'
+          )
+
+          touch _site/.nojekyll
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
