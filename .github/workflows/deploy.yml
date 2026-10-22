@@ -35,19 +35,36 @@ jobs:
         run: |
           set -euo pipefail
 
+          # 取得教材儲存庫的所有分支
           git fetch origin \
             '+refs/heads/*:refs/remotes/origin/*'
 
           mkdir -p _site
 
+          # 先保留原本 main 分支的其他網站檔案
           git archive origin/main |
             tar -x -C _site
 
+          # 從獨立的首頁儲存庫取得最新首頁
+          git clone \
+            --depth 1 \
+            --branch main \
+            https://github.com/nlhs-csc/nlhs-csc-homepage.git \
+            /tmp/nlhs-csc-homepage
+
+          # 將首頁檔案放進網站根目錄，不複製 .git
+          tar --exclude='.git' \
+            -cf - \
+            -C /tmp/nlhs-csc-homepage . |
+            tar -xf - -C _site
+
+          # 發布社課教材
           mkdir -p _site/club/9th
 
           git archive origin/9th |
             tar -x -C _site/club/9th
 
+          # 發布所有 bookclub-* 分支
           while read -r ref; do
             suffix="${ref#origin/bookclub-}"
             destination="_site/bookclub/${suffix}"
