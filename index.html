@@ -1,40 +1,278 @@
+
 <!DOCTYPE html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>資研社教材</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#282c34">
+  <meta name="description" content="內高資研、科技無限。探索程式設計、演算法、專案實作與資研讀書會。">
 
-    <!-- Reveal.js 樣式 -->
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css"
-    >
+  <title>內高資研｜科技無限</title>
 
-    <!-- 程式碼高亮主題 -->
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/highlight/monokai.css"
-    >
-
-    <!-- 自訂樣式 -->
-    <link rel="stylesheet" href="./css/one-dark.css">
-    <link rel="stylesheet" href="./css/theme.css">
-    <link rel="stylesheet" href="./css/home.css">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/site-home.css">
+  <script src="js/site-home.js" defer></script>
 </head>
-
 <body>
-    <!-- 課程首頁 -->
-    <main id="home-page"></main>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="主導覽">
+      <a class="brand" href="#home" aria-label="內高資研首頁">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span class="brand-text">
+          <strong>NLCS </strong>
+          <small>INFORMATION SCIENCE CLUB</small>
+        </span>
+      </a>
 
-    <!-- Reveal.js 簡報 -->
-    <div class="reveal">
-        <div class="slides">
-            <section id="lesson-slides"></section>
+      <button class="menu-toggle" aria-label="開啟選單"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">認識資研社</a>
+        <a href="/club/9th/">社課教材</a>
+        <a href="/bookclub/3st/">資研讀書會</a>
+        <a href="#news">最新消息</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          THINK · CODE · CREATE
         </div>
-    </div>
 
-    <!-- 網站程式：統一由 ES Module 載入 -->
-    <script type="module" src="./js/presentation.js"></script>
+        <h1>
+          內高資研<br>
+          <span class="gradient-text">科技無限</span>
+        </h1>
+
+        <p class="hero-description">
+          從程式設計到演算法，從想法到實作<br>
+          一起探索科技，讓想法都有實現的可能
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#explore">
+            探索資研社 <span aria-hidden="true">↗</span>
+          </a>
+          <a class="button button-secondary" href="/club/9th/">
+            瀏覽社課教材
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span><span class="meta-symbol">&gt;_</span> Learn by doing</span>
+          <span><span class="meta-symbol">{ }</span> Build together</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="程式碼終端機">
+        <div class="terminal">
+          <div class="terminal-bar">
+            <div class="window-controls" aria-hidden="true">
+              <span></span><span></span><span></span>
+            </div>
+            <span class="terminal-title">nlcs — terminal</span>
+            <span class="terminal-menu">•••</span>
+          </div>
+
+          <div class="terminal-body">
+            <div class="terminal-path">
+              <span class="code-green">student</span>
+              <span class="code-muted">@</span>
+              <span class="code-blue">nlcs</span>
+              <span class="code-muted">:~/future$</span>
+            </div>
+
+            <pre><code><span class="code-purple">#include</span> <span class="code-orange">&lt;iostream&gt;</span>
+<span class="code-purple">using namespace</span> std;
+
+<span class="code-purple">int</span> <span class="code-blue">main</span>() {
+    <span class="code-green">learn</span>();
+    <span class="code-green">build</span>();
+    <span class="code-green">compete</span>();
+
+    <span class="code-purple">return</span> <span class="code-orange">0</span>;
+}</code></pre>
+
+            <div class="terminal-output">
+              <span class="code-muted">// Output</span><br>
+              <span class="code-green">Ideas into reality.</span><br>
+              <span class="code-cyan">Ready to create_</span>
+              <span class="cursor" aria-hidden="true"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="floating-tag tag-top">
+          <span class="tag-icon">&lt;/&gt;</span>
+          <span><strong>Code</strong><small>Write your first program</small></span>
+        </div>
+
+        <div class="floating-tag tag-bottom">
+          <span class="tag-icon tag-icon-green">{ }</span>
+          <span><strong>Think</strong><small>Turn problems into solutions</small></span>
+        </div>
+        <div class="visual-glow"></div>
+      </div>
+
+    </section>
+
+    <section class="explore-section section container" id="explore">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">EXPLORE</span>
+          <h2>探索資研社</h2>
+          <p>從學習、交流到實作，找到你的下一個方向。</p>
+        </div>
+        <span class="section-index">01 / 04</span>
+      </div>
+
+      <div class="feature-grid">
+        <a class="feature-card card-about" href="#about">
+          <div class="card-top">
+            <span class="card-icon icon-blue">&lt;/&gt;</span>
+            <span class="card-arrow">↗</span>
+          </div>
+          <span class="card-label">ABOUT US</span>
+          <h3>認識資研社</h3>
+          <p>了解社團理念、學習方向與活動，一起踏上探索資訊科學的旅程</p>
+          <span class="card-link">認識我們 <span>→</span></span>
+        </a>
+
+        <a class="feature-card card-lessons" href="/club/9th/">
+          <div class="card-top">
+            <span class="card-icon icon-green">{ }</span>
+            <span class="card-arrow">↗</span>
+          </div>
+          <span class="card-label">LESSONS</span>
+          <h3>社課教材</h3>
+          <p>從基礎語法到演算法，透過課程教材建立知識，一步步提升實力</p>
+          <span class="card-link">開始學習 <span>→</span></span>
+        </a>
+
+        <a class="feature-card card-bookclub" href="/bookclub/3st/">
+          <div class="card-top">
+            <span class="card-icon icon-orange">λ</span>
+            <span class="card-arrow">↗</span>
+          </div>
+          <span class="card-label">STUDY GROUP</span>
+          <h3>資研讀書會</h3>
+          <p>
+            從程式設計基礎到進階演算法，透過讀書會與同好交流學習心得
+          </p>
+          <span class="card-link">瀏覽教材 <span>→</span></span>
+        </a>
+
+        <a class="feature-card card-news" href="#news">
+          <div class="card-top">
+            <span class="card-icon icon-purple">✳</span>
+            <span class="card-arrow">↗</span>
+          </div>
+          <span class="card-label">WHAT'S NEW</span>
+          <h3>最新消息</h3>
+          <p>掌握社團活動、課程資訊與相關公告，不錯過每一次交流的機會。</p>
+          <span class="card-link">查看資訊 <span>→</span></span>
+        </a>
+      </div>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="container about-layout">
+        <div class="about-heading">
+          <span class="section-kicker">WHO WE ARE</span>
+          <h2>不只寫程式，<br>更要理解問題。</h2>
+        </div>
+
+        <div class="about-content">
+
+          <div class="activity-heading">
+            <span class="section-kicker">OUR LEARNING PATHS</span>
+            <h3>找到你的學習方向</h3>
+            <p>從競賽解題到專案開發，探索不同的可能。</p>
+          </div>
+            
+          <div class="activity-grid">
+            <article class="activity-card activity-blue">
+            <span class="activity-number">01 / CP</span>
+            <div class="activity-icon">&lt;/&gt;</div>
+              <h3>競程組</h3>
+              <p>學習基礎語法與演算法</p>
+              <span class="activity-tag">ALGORITHMS · CONTESTS</span>
+            </article>
+          
+            <article class="activity-card activity-green">
+              <span class="activity-number">02 / DEV</span>
+              <div class="activity-icon">{ }</div>
+              <h3>專案組</h3>
+              <p>以製作一款小遊戲為目標</p>
+              <span class="activity-tag">BUILD · CREATE</span>
+            </article>
+          
+            <article class="activity-card activity-orange">
+              <span class="activity-number">03 / BASIC</span>
+              <div class="activity-icon">01</div>
+              <h3>讀書會・初學組</h3>
+              <p>從基礎觀念出發，循序學習程式設計</p>
+              <span class="activity-tag">LEARN · PRACTICE</span>
+            </article>
+          
+            <article class="activity-card activity-purple">
+              <span class="activity-number">04 / ADV</span>
+              <div class="activity-icon">λ</div>
+              <h3>讀書會・進階組</h3>
+              <p>研究進階演算法與資料結構</p>
+              <span class="activity-tag">ALGORITHMS · DATA STRUCTURES</span>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="news-section section container" id="news">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">LATEST UPDATES</span>
+          <h2>最新消息</h2>
+          <p>關注資研社的活動與學習資訊。</p>
+        </div>
+      </div>
+
+      <div class="news-placeholder">
+        <span class="news-icon">✳</span>
+        <div>
+          <h3>更多消息，敬請期待</h3>
+          <p>未來將在這裡整理社團公告、活動資訊與最新消息。</p>
+        </div>
+        <span class="news-status">COMING SOON</span>
+      </div>
+    </section>
+
+    <section class="closing-section container">
+      <span class="section-kicker">YOUR NEXT STEP STARTS HERE</span>
+      <h2>準備好探索更多可能了嗎？</h2>
+      <p>從一行程式碼開始，讓好奇心帶你走得更遠。</p>
+      <a class="button button-primary" href="/club/9th/">
+        前往社課教材 <span aria-hidden="true">↗</span>
+      </a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#home">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>內高資研、科技無限</span>
+      </a>
+      <p>Learn · Think · Create</p>
+      <p class="copyright">© <span id="current-year">2026</span> NLCS · CPDP</p>
+    </div>
+  </footer>
 </body>
 </html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>資研社教材</title>
+
+    <!-- Reveal.js 樣式 -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css"
+    >
+
+    <!-- 程式碼高亮主題 -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/highlight/monokai.css"
+    >
+
+    <!-- 自訂樣式 -->
+    <link rel="stylesheet" href="./css/one-dark.css">
+    <link rel="stylesheet" href="./css/theme.css">
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+
+<body>
+    <!-- 課程首頁 -->
+    <main id="home-page"></main>
+
+    <!-- Reveal.js 簡報 -->
+    <div class="reveal">
+        <div class="slides">
+            <section id="lesson-slides"></section>
+        </div>
+    </div>
+
+    <!-- 網站程式：統一由 ES Module 載入 -->
+    <script type="module" src="./js/presentation.js"></script>
+</body>
+</html>
