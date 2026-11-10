@@ -19,37 +19,20 @@
 
 <!-- .slide: class="concept" -->
 
-## 自製光譜儀
-
-在這裡撰寫本堂課的核心概念與解釋。
+## 報告
 
 [!image](public/images/uu_sci_001.jpg){300, 右, 講解時的照片} [!image](public/images/uu_sci_002.jpg){300, 右, 講解時的照片}
 
----
-
-<!-- .slide: class="code" -->
-
-## 程式碼示範
-
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-    cout << "Hello, world!\n";
-    return 0;
-}
-```
+在課程的最後，我們進行了小組成員報告環節。<br>
+除了讓我對研究有更多的了解，也能讓其他同學知道我們的實驗和成果。<br>
 
 ---
 
-<!-- .slide: class="exercise" -->
+<!-- .slide: class="concept" -->
 
-## 動手練習
 
-1. 閱讀題目。
-2. 思考解法。
-3. 嘗試自己實作。
+
+
 
 ---
 
