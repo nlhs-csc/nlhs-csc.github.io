@@ -1,10 +1,10 @@
 <!-- .slide: class="cover" -->
 
-# 第 N 次社課
+# {{SESSION_TITLE}}
 
-## 課程名稱
+## {{COURSE_TITLE}}
 
-資研社｜入門課程
+{{SERIES_NAME}}
 
 ---
 

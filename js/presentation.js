@@ -33,6 +33,21 @@ const lessons = [
     id: "functions_and_loops",
     title: "函式與迴圈",
     description: "認識 for、while、學會重複執行程式"
+  },
+  {
+    id: "testing",
+    title: "Test",
+    description: "tttt"
+  },
+  {
+    id: "teeeeeeeeeee",
+    title: "Test",
+    description: "ststs"
+  },
+  {
+    id: "Science",
+    title: "化學探究與實作",
+    description: "21813 邱彥傑"
   }
 ];
 
