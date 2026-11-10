@@ -24,7 +24,7 @@
 
 ## 光譜儀構想設計圖：
 
-[!image](/public/images/uu_sci_005.png){1024, , 設計圖稿和尺寸標註}
+[!image](public/images/uu_sci_005.png){1024, , 設計圖稿和尺寸標註}
 
 
 ---
@@ -33,7 +33,7 @@
 
 ## 製作光譜儀所需材料：
 
-[!image](/public/images/uu_sci_006.png){512, 右, 設計圖稿和尺寸標註}
+[!image](public/images/uu_sci_006.png){512, 右, 設計圖稿和尺寸標註}
 
 - 初始尺寸相同的盒子
 - 「黑色」膠帶
