@@ -62,6 +62,26 @@
 
 <!-- .slide: class="concept" -->
 
+## 觀察光譜--
+
+# 電子螢幕的光線所產生的光譜
+
+[!image](public/images/uu_sci_009.png){4096, 中, }
+
+---
+
+<!-- .slide: class="concept" -->
+
+## 觀察光譜--
+
+# 教室檯燈的光線所產生的光譜
+
+[!image](public/images/uu_sci_010.png){4096, 中, }
+
+---
+
+<!-- .slide: class="concept" -->
+
 ## 成果報告
 
 [!image](public/images/uu_sci_001.jpg){300, 右, 講解時的照片} 
