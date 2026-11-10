@@ -40,13 +40,22 @@
 
 ## 製作光譜儀所需材料：
 
-[!image](public/images/uu_sci_006.png){512, 右, 設計圖稿和尺寸標註}
+[!image](public/images/uu_sci_006.png){600, 右, 材料們}
 
 - 初始尺寸相同的盒子<br>
 - 「黑色」膠帶<br>
 - 有刻度的直尺和量角器<br>
 - 剪刀<br>
 - 穩定光源(電子白板和教室檯燈)<br>
+
+---
+
+<!-- .slide: class="concept" -->
+
+## 光譜儀成品
+
+[!image](public/images/uu_sci_007.png){4096, 右, 成品三視圖}
+
 
 ---
 
