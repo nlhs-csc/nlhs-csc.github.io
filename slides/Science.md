@@ -24,8 +24,15 @@
 
 ## 光譜儀構想設計圖：
 
-[!image](public/images/uu_sci_005.png){1024, , 設計圖稿和尺寸標註}
+[!image](public/images/uu_sci_005.png){1024, 右, 設計圖稿和尺寸標註}
 
+控制變因(單位：公分)：<br>
+- 紙盒：8.5 $\times$ 4.5<br>
+- 觀察孔(修改後)：2.0 $\times$ 2.0<br>
+- 狹縫(修改後)：1.8 $\times$ 0.2<br> 
+
+操縱變因：<br>
+- 入射光和光碟夾角：15$^{\circ}$、30$^{\circ}$、45$^{\circ}$、60$^{\circ}$<br>
 
 ---
 
@@ -35,16 +42,17 @@
 
 [!image](public/images/uu_sci_006.png){512, 右, 設計圖稿和尺寸標註}
 
-- 初始尺寸相同的盒子
-- 「黑色」膠帶
-- 剪刀
-- 有刻度的直尺和量角器
+- 初始尺寸相同的盒子<br>
+- 「黑色」膠帶<br>
+- 有刻度的直尺和量角器<br>
+- 剪刀<br>
+- 穩定光源(電子白板和教室檯燈)<br>
 
 ---
 
 <!-- .slide: class="concept" -->
 
-## 報告
+## 成果報告
 
 [!image](public/images/uu_sci_001.jpg){300, 右, 講解時的照片} 
 [!image](public/images/uu_sci_002.jpg){300, 右, 講解時的照片}   
