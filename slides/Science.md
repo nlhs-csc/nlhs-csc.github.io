@@ -24,7 +24,7 @@
 
 ## 光譜儀構想設計圖：
 
-[!image](public/images/uu_sci_005.jpg){1024, , 設計圖稿和尺寸標註}
+[!image](public/images/uu_sci_005.png){1024, , 設計圖稿和尺寸標註}
 
 
 ---
