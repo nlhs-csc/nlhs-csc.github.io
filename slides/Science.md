@@ -23,7 +23,7 @@
 
 在這裡撰寫本堂課的核心概念與解釋。
 
-[!image](\public\images\uu_sci_001.jpg){300, 右, 講解時} [!image](\public\images\uu_sci_002.jpg){300, 右, 講解時}
+[!image](\public\images\uu_sci_001.jpg){300, 右, 講解時的照片} [!image](\public\images\uu_sci_002.jpg){300, 右, 講解時的照片}
 
 ---
 
