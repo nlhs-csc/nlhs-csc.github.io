@@ -3,6 +3,8 @@ import RevealMarkdown from "https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/
 import RevealHighlight from "https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/highlight/highlight.esm.js";
 import RevealMath from "https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/math/math.esm.js";
 
+window.Reveal = Reveal;
+
 const lessons = [
   {
     id: "temp",

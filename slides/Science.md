@@ -54,8 +54,7 @@
 
 ## 光譜儀製作和成品
 
-[!image](public/images/uu_sci_008.png){4096, 左, 製作步驟}
-[!image](public/images/uu_sci_007.png){4096, 右, 成品三視圖}
+[!image](public/images/uu_sci_008.png){1024, 左, 製作步驟} [!image](public/images/uu_sci_007.png){1024, 右, 成品三視圖}
 
 
 ---
@@ -64,7 +63,7 @@
 
 ## 觀察光譜--
 
-# 電子螢幕的光線所產生的光譜
+### 電子螢幕的光線所產生的光譜
 
 [!image](public/images/uu_sci_009.png){4096, 中, }
 
@@ -74,7 +73,7 @@
 
 ## 觀察光譜--
 
-# 教室檯燈的光線所產生的光譜
+### 教室檯燈的光線所產生的光譜
 
 [!image](public/images/uu_sci_010.png){4096, 中, }
 
