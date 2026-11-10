@@ -22,6 +22,16 @@
 
 <!-- .slide: class="concept" -->
 
+## 光譜儀構想設計圖：
+
+[!image](public/images/uu_sci_005.jpg){1024, , 設計圖稿和尺寸標註}
+
+
+---
+
+<!-- .slide: class="concept" -->
+
+## 製作光譜儀所需材料：
 
 
 
@@ -32,10 +42,11 @@
 
 ## 報告
 
-[!image](public/images/uu_sci_001.jpg){300, 右, 講解時的照片} [!image](public/images/uu_sci_002.jpg){300, 右, 講解時的照片}
+[!image](public/images/uu_sci_001.jpg){300, 右, 講解時的照片} 
+[!image](public/images/uu_sci_002.jpg){300, 右, 講解時的照片}   
 
-在課程的最後，我們進行了小組成員報告環節。<br>
-除了讓我對研究有更多的了解，也能讓其他同學知道我們的實驗和成果。<br>
+在課程的最後，我們進行了報告的環節。<br>
+除了讓我對研究有更多的了解，也能讓<br>其他同學知道我們的實驗和成果。<br>
 
 ---
 
