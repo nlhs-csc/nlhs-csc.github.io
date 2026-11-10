@@ -52,10 +52,19 @@
 
 <!-- .slide: class="concept" -->
 
-## 光譜儀製作和成品
+## 光譜儀製作
 
-[!image](public/images/uu_sci_008.png){1024, 左, 製作步驟} [!image](public/images/uu_sci_007.png){1024, 右, 成品三視圖}
+[!image](public/images/uu_sci_008.png){, 左, 製作步驟}
 
+---
+
+<!-- .slide: class="concept" -->
+
+## 光譜儀成品
+
+[!image](public/images/uu_sci_007.png){, 右, 成品三視圖}
+
+將光譜儀並列合照，確認成品樣貌。<br>
 
 ---
 
