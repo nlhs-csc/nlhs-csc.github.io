@@ -337,7 +337,7 @@ int main() {
 
 ---
 
-<!-- .slide: class="concept" -->
+<!-- .slide: class="code" -->
 
 ## I/O 優化
 
