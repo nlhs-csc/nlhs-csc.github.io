@@ -354,6 +354,47 @@
 
 
 
+/* ===== 引用區塊 ====== */
+
+.reveal blockquote {
+  width: 90%;
+  margin: 1rem auto;
+
+  padding: 0.8rem 1.2rem;
+
+  background: #21252b;
+  border-left: 4px solid #61afef;
+  border-radius: 0 8px 8px 0;
+
+  color: #abb2bf;
+  font-size: 0.85em;
+  font-style: normal;
+
+  box-shadow: none;
+  text-align: left;
+}
+
+/* 引用區塊內文字 */
+.reveal blockquote p {
+  margin: 0.35rem 0;
+  line-height: 1.6;
+}
+
+/* 引用區塊內程式碼 */
+.reveal blockquote code {
+  color: #e5c07b;
+  background: #282c34;
+  padding: 0.15em 0.35em;
+  border-radius: 4px;
+}
+
+/* 引用區塊內連結 */
+.reveal blockquote a {
+  color: #56b6c2;
+}
+
+
+
 
 
 
