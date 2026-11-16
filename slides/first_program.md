@@ -344,13 +344,13 @@ int main() {
 可以使用輸入輸出優化來避免 TLE (Time Limit Exceeded)<br>
 
 ```cpp
+#include <bits/stdc++.h>
+
 int main() {
-    // I/O 優化：
     // 關閉同步 C 語言的 stdio
-    std::ios::sync_with_sync(false);
+    std::ios::sync_with_stdio(false);
 
     // 解除綁定 flash
     std::cin.tie(nullptr);
-    std::cerr.tie(nullptr);
 }
 ```
