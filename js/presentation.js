@@ -27,9 +27,9 @@ const lessons = [
     description: "開始第一次程式實作，學習輸入與輸出"
   },
   {
-    id: "conditions_and_loops",
-    title: "條件陳述與迴圈",
-    description: "學習條件陳述與迴圈的使用"
+    id: "conditions",
+    title: "條件陳述式",
+    description: "學習條件陳述式，並認識邏輯運算子"
   },
   {
     id: "functions_and_loops",
