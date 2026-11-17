@@ -34,9 +34,9 @@
 ### [NLOJ-12](https://nloj.nlhs.tyc.edu.tw/problems/12)
 
 
-[!image](public/images/nloj-12.png){300, 左 , }
-給你 Cheng 的會考數學為 $S$ 分 (最多到小數後兩位)
-請問他的數學會拿到什麼標示？<br>
+[!image](public/images/nloj-12.png){600, 左 , }
+
+給你 Cheng 的會考數學為 $S$ 分 (最多到小數後兩位)，請問他的數學會拿到什麼標示？<br>
 
 ---
 
